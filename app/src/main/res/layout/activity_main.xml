@@ -44,7 +44,7 @@
         android:text="@string/set" />
 
     <Spinner
-        android:id="@+id/alarmStart"
+        android:id="@+id/hourStart"
         android:layout_width="141dp"
         android:layout_height="53dp"
         android:layout_alignParentStart="true"
@@ -53,14 +53,14 @@
         android:layout_marginTop="367dp" />
 
     <Spinner
-        android:id="@+id/alarmStart2"
+        android:id="@+id/hourEnd"
         android:layout_width="141dp"
         android:layout_height="53dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="225dp"
-        android:layout_marginTop="369dp"
+        android:layout_marginTop="368dp"
         android:layout_marginEnd="45dp" />
 
 </RelativeLayout>
