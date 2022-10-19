@@ -9,16 +9,16 @@
 
     <TextView
         android:id="@+id/alarmHeading"
-        android:layout_width="125dp"
-        android:layout_height="49dp"
+        android:layout_width="174dp"
+        android:layout_height="180dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="156dp"
         android:text="@string/set_alarm_interval"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/alarmHeading2"
@@ -38,33 +38,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="145dp"
         android:text="@string/set" />
 
     <Button
         android:id="@+id/alarmStart"
-        android:layout_width="125dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="367dp"
-        android:onClick="alarmStartSetter"
         android:text="@string/alarm_start" />
 
     <Button
         android:id="@+id/alarmEnd"
-        android:layout_width="115dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="241dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="244dp"
         android:layout_marginTop="367dp"
-        android:layout_marginEnd="55dp"
-        android:onClick="alarmEndSetter"
         android:text="@string/alarm_end" />
 
 </RelativeLayout>
